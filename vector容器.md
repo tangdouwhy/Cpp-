@@ -310,7 +310,7 @@ swap(vec);//将vec与本身的元素互换
 
 减少vector在动态扩展容量时的扩展次数
 
-reserve只是为了不让迭代器指向的地址发生改变
+xxxxxxxxxx string emaill = "zhangshan@sina.com";string substr = emaill.substr(0, emaill.find('@'));//能刚好截到@前面,不包括@cout << substr << endl;c++
 
 只改变容量不申请内存
 

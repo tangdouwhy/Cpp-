@@ -80,7 +80,7 @@ cout << str7 << endl;
 
 ## 字符串拼接:
 
-string& operator+=(const char* str);//重载+=操作符
+xxxxxxxxxx //常用查找算法//findclass Person{public:    bool operator==(Person a)    {        return (a.age==age)&&(a.name==name);    }    Person(string namea,int agea):name(namea),age(agea)    {​    }    string name;    int age;​};//查找 内置数据类型void test01(){    vector`<int>`v;    for(int i=0;i<10;i++)    {        v.push_back(i);    }    //查找容器中是否有5这个元素    vector`<int>`::iterator it=find(v.begin(),v.end(),5);    cout<<*it<<endl;}//查找 自定义数据类型void test02(){    vector`<Person>`v;    Person p1("aaa",10);    v.push_back(p1);    v.push_back(Person("bbb",20));    v.push_back(Person("ccc",30));    v.push_back(Person("ddd",10));    v.push_back(Person("eee",40));    vector`<Person>`::iterator it=find(v.begin(),v.end(),p1);    cout<<(*it).name<<(*it).age<<endl;}`c++
 
 string& operator+=(const char c);//重载+=操作符
 
